@@ -1,0 +1,106 @@
+.messenger {
+  height: calc(100vh - 70px);
+  display: flex;
+}
+
+.chatGroup {
+  flex: 2.5;
+  position: relative;
+  height: calc(100% - 10px);
+  overflow-y: auto;
+}
+
+.chatGroupInput {
+  width: 90%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.chatBox {
+  flex: 6.5;
+}
+
+.groupInfoBox {
+  flex: 2.5;
+}
+
+.chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.chatBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.chatBoxBottom {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatMessageInput {
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+}
+
+.groupButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 155px;
+  height: 40px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnInput {
+  width: 70%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.enterButton {
+  width: 30%;
+  height: 40px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ChatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+.chatGroupWrapper,
+.chatBoxWrapper {
+  padding: 10px;
+  height: 100%;
+}
+
+.noConversationText {
+  position: absolute;
+  top: 15%;
+  font-size: 50px;
+  text-align: center;
+  cursor: default;
+}
