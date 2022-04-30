@@ -4,7 +4,7 @@ React.js, ASP.NET, Microsoft SQL Server, SignalR
 
 Database Connection:
 ```
-backend/appsettings.json -> ConnString
+backend/appsettings.json -> "ConnString"
 ```
 
 Frontend:
